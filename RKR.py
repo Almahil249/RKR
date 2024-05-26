@@ -214,6 +214,6 @@ def distribution(expression):
 def clauses_from_conjunctions(expression):
     return re.split(',',expression)
 
-#####form:FA x(p(x) -> a(x)) | TE x(p(x) -> a(X))
+#form:FA x(p(x) -> a(x)) | TE x(p(x) -> a(X))
 L = []
 eliminate_implication('p(x) -> a(x)')
